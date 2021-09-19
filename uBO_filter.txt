@@ -1,8 +1,8 @@
 ![Adblock Plus 2.0]
 ! Title: im-boots's uBO filter
 ! Description: Custom uBO Filters
-! Version: 1.0.0
-! Expires: 10 days
+! Version: 1.1.0
+! Expires: 5 days
 
 
 ! Fixes Celtx Google Login
@@ -16,3 +16,6 @@ scorecardresearch.com^$important
 
 ! Remove cta param
 ||www.deepl.com^$removeparam=cta
+
+! Celtx tracking?
+||trk.celtx.com^$important
