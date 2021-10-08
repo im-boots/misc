@@ -1,6 +1,4 @@
-![Adblock Plus 2.0]
 ! Title: im-boots's uBO filter
-! Description: Custom uBO Filters
 ! Version: 1.1.0
 ! Expires: 5 days
 
