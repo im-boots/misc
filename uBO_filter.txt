@@ -1,14 +1,18 @@
 ! Title: im-boots's uBO filter
-! Version: 1.2.1
+! Version: 1.2.2
 ! Expires: 15 days
 
 
 ! Fixes Celtx Google Login
 @@||apis.google.com/js/platform.js$domain=celtx.com
 
-! Block PlusPortals GA
+! Block PlusPortals tracking and misc.
 ||plusportals.com/Scripts/CustomScripts/google-analytics.js$important
 /google-analytics.js^$script
+||translate.googleapis.com^$domain=plusportals.com
+||translate.google.com^$domain=plusportals.com
+||plusportals.com/Scripts/CustomScripts/google-translator/*
+
 
 scorecardresearch.com^$important
 
