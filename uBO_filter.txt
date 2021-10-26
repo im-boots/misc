@@ -1,5 +1,5 @@
 ! Title: im-boots's uBO filter
-! Version: 1.2.0
+! Version: 1.2.1
 ! Expires: 15 days
 
 
@@ -7,7 +7,7 @@
 @@||apis.google.com/js/platform.js$domain=celtx.com
 
 ! Block PlusPortals GA
-||plusportals.com/Scripts/CustomScripts/google-analytics.js$script,1p,important
+||plusportals.com/Scripts/CustomScripts/google-analytics.js$important
 /google-analytics.js^$script
 
 scorecardresearch.com^$important
