@@ -1,6 +1,6 @@
 ! Title: im-boots's uBO filter
-! Version: 1.1.0
-! Expires: 5 days
+! Version: 1.2.0
+! Expires: 15 days
 
 
 ! Fixes Celtx Google Login
@@ -17,3 +17,6 @@ scorecardresearch.com^$important
 
 ! Celtx tracking?
 ||trk.celtx.com^$important
+
+! Prezi Logging
+||bandar-logger.prezi.com^
