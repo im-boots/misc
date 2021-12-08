@@ -13,7 +13,6 @@
 ||translate.google.com^$domain=plusportals.com
 ||plusportals.com/Scripts/CustomScripts/google-translator/*
 
-
 scorecardresearch.com^$important
 
 ! Remove cta param
@@ -24,3 +23,6 @@ scorecardresearch.com^$important
 
 ! Prezi Logging
 ||bandar-logger.prezi.com^
+
+! seems to be related to Piktochart logging?
+||userpilot.io^
