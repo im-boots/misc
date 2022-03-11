@@ -1,6 +1,5 @@
-! Title: im-boots's uBO filter
-! Version: 1.2.2
-! Expires: 15 days
+! Title: Custom uBO filter
+! Expires: 20 days
 
 
 ! Fixes Celtx Google Login
@@ -26,3 +25,5 @@ scorecardresearch.com^$important
 
 ! seems to be related to Piktochart logging?
 ||userpilot.io^
+
+||us04web.zoom.us/sendUserBehavior$1p
